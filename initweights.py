@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  7 16:32:45 2019
-
-@author: Jerry Xing
-"""
 import numpy as np
 def initweights(wst):
 #    % function W=initweights(wst);
