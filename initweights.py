@@ -11,10 +11,3 @@ def initweights(wst):
     
     return W
 
-
-# import scipy.io as sio
-
-# bostonData = sio.loadmat('boston.mat')
-# xTr = bostonData['xTr']
-# xTe = bostonData['xTe']
-# print(initweights(wst=np.array([1,13,26,13,np.shape(xTr)[0]])).shape)
