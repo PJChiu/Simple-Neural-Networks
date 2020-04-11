@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  7 20:07:53 2019
-
-@author: Jerry Xing
-"""
 import numpy as np
 def backprop(W, aas,zzs, yTr,  trans_func_der):
 #% function [gradient] = backprop(W, aas, zzs, yTr,  der_trans_func)
