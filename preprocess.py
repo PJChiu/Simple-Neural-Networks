@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  7 14:05:03 2019
-
-@author: Jerry Xing
-"""
 import numpy as np
 def preprocess(xTr,xTe):
 # function [xTr,xTe,u,m]=preprocess(xTr,xTe);
@@ -36,13 +31,3 @@ def preprocess(xTr,xTe):
 	m = mean
 	
 	return xTr, xTe, u, m
-
-
-import scipy.io as sio
-
-# bostonData = sio.loadmat('boston.mat')
-# xTr = bostonData['xTr']
-# xTe = bostonData['xTe']
-# print(bostonData['xTr'].shape)
-# print(bostonData['xTe'].shape)
-# preprocess(xTr, xTe)
