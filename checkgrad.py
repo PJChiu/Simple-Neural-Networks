@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  7 21:04:15 2019
-
-@author: Jerry Xing
-"""
 import numpy as np
 def checkgrad(f, X, e, *kwargs):
 
@@ -22,7 +17,6 @@ def checkgrad(f, X, e, *kwargs):
 #%
 #% where fX is the function value and dfX is a vector of partial derivatives.
 #%
-#% Carl Edward Rasmussen, 2001-08-01.
 
     y, dy = f(X, *kwargs)
     
