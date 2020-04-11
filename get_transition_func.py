@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  7 19:19:32 2019
-
-@author: Jerry Xing
-"""
 import numpy as np
 def get_transition_func(transType):
 #%	Given the type, gets a specific transition function
