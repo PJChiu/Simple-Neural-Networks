@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  7 13:53:00 2019
-
-@author: Jerry Xing
-"""
 import numpy as np
 import scipy.io as sio
 from preprocess import preprocess
