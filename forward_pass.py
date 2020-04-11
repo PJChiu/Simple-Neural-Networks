@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  7 19:30:29 2019
-
-@author: remus
-"""
 import numpy as np
 def forward_pass(W, xTr, trans_func):
 #% function [as,zs]=forward_pass(W,xTr,trans_func)
