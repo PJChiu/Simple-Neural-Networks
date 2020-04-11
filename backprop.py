@@ -26,20 +26,6 @@ def backprop(W, aas,zzs, yTr,  trans_func_der):
 		gradient[i] = delta.dot(zzs[i+1].T) / n
 		delta = trans_func_der(aas[i+1])*((W[i][:, :(W[i].shape[1])-1]).T.dot(delta))
 
-	# gradient = []
-
-	# for i in range(len(W)):
-	# 	gradient.append(W[i]*0)
-
-	# delta_temp = delta
-	# gradient[0][:,:-1] += 1/n* (delta_temp @ zzs[1][:-1,:].reshape(zzs[1].shape[0]-1,-1).T)
-	# gradient[0][:,-1] += 1/n* (delta_temp @ zzs[1][-1,:].reshape(1,-1).T).flatten()
-
-	# for i in range(1,len(W)):
-	# 	delta_temp  = (W[i-1][:,:-1].T @ delta_temp ) * trans_func_der(aas[i]).reshape(aas[i].shape[0],-1)
-	# 	gradient[i][:,:-1] += 1/n* delta_temp @ zzs[i+1][:-1,:].reshape(zzs[i+1].shape[0]-1,-1).T
-	# 	gradient[i][:,-1] += 1/n* (delta_temp @ zzs[i+1][-1,:].reshape(1,-1).T ).flatten()
-
 	return gradient 
 
 
