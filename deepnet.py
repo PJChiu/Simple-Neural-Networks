@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  7 19:11:01 2019
-
-@author: Jerry Xing
-"""
 import numpy as np
 from get_transition_func import get_transition_func
 from forward_pass import forward_pass
