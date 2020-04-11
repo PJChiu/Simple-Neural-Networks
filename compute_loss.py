@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  7 20:03:45 2019
-
-@author: remus
-"""
 import numpy as np
 def compute_loss(zzs, yTr):
 #% function [loss] = compute_loss(zs, yTr)
