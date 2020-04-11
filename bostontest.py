@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Apr  8 20:57:03 2019
-
-@author: remus
-"""
 import scipy.io as sio
 import numpy as np
 import time
